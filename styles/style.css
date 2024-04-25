@@ -11,13 +11,37 @@ body {
 header {
   background-color: rgba(229, 84, 115, 0.1);
   height: 100vh;
+  padding: 0 150px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation ul li {
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 30px;
+  color: #000;
 }
 
 .banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 150px;
+
   gap: 90px;
 }
 
@@ -36,7 +60,7 @@ header {
 }
 
 .banner-img {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .btn {
@@ -203,4 +227,31 @@ header {
   border: 0;
   width: 60%;
   margin-right: 16px;
+}
+
+/* footer section */
+footer {
+  background-color: #111010;
+  padding: 128px 0;
+}
+
+.footer-container {
+  max-width: 600px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container p {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.footer-container h2 {
+  color: #fff;
+  cursor: pointer;
+}
+
+.colored {
+  color: #e55473;
 }
